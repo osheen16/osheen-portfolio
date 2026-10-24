@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Osheen Bhardwaj</title>
+<meta name="description" content="Get in touch with Osheen Bhardwaj." />
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css?v=11" />
+<script src="js/theme-boot.js?v=1"></script>
+</head>
+<body data-page="contact">
+
+  <canvas id="space-canvas" aria-hidden="true"></canvas>
+  <canvas id="fluid" aria-hidden="true"></canvas>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" data-brand-hex></span>
+        Osheen Bhardwaj
+      </a>
+      <div class="nav-links">
+        <a href="about.html" data-page="about"><span class="num">01</span>About</a>
+        <a href="experience.html" data-page="experience"><span class="num">02</span>Experience</a>
+        <a href="projects.html" data-page="projects"><span class="num">03</span>Projects</a>
+        <a href="resume.html" data-page="resume"><span class="num">04</span>Resume</a>
+        <a href="contact.html" data-page="contact"><span class="num">05</span>Contact</a>
+      </div>
+      <div class="nav-right">
+        <div class="nav-avatar-slot">
+          <div class="nav-avatar-static" data-avatar-wrap>
+            <img data-avatar src="assets/profile.jpg" alt="Osheen Bhardwaj" />
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="contact-hero container reveal">
+      <div class="eyebrow">Get in touch</div>
+      <h1 class="section-title">Let's talk research, roles, or ideas.</h1>
+      <p class="section-sub" style="max-width:640px;">
+        Whether it's about time-series foundation models, a collaboration, or just to say hi —
+        my inbox is open.
+      </p>
+      <div class="social-icons" id="social-target"></div>
+    </section>
+
+    <section class="section container reveal">
+      <form class="note-box glass" id="contact-form" novalidate>
+        <div class="note-box-head">
+          <span class="note-pin" aria-hidden="true"></span>
+          <span class="note-title mono">new_message.txt</span>
+          <span class="note-to mono">to: <span data-site-email></span></span>
+        </div>
+
+        <div class="note-box-body">
+          <div class="note-row">
+            <div class="note-field">
+              <label for="cf-name">Your name</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" placeholder="Name" required />
+              <span class="note-error" data-error-for="cf-name"></span>
+            </div>
+            <div class="note-field">
+              <label for="cf-email">Email ID</label>
+              <input id="cf-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <span class="note-error" data-error-for="cf-email"></span>
+            </div>
+          </div>
+
+          <div class="note-field">
+            <label for="cf-subject">Subject or purpose</label>
+            <input id="cf-subject" name="subject" type="text" placeholder="Project collaboration or professional inquiry" required />
+            <span class="note-error" data-error-for="cf-subject"></span>
+          </div>
+
+          <div class="note-field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="7" placeholder="Hi Osheen, I'd like to discuss.." required></textarea>
+            <span class="note-error" data-error-for="cf-message"></span>
+          </div>
+
+          <!-- bots fill this in; people never see it -->
+          <div class="note-honey" aria-hidden="true">
+            <label for="cf-company">Company</label>
+            <input id="cf-company" name="_honey" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <div class="note-box-foot">
+            <button type="submit" class="btn btn-primary" id="cf-submit">Send message</button>
+            <p class="note-status" id="cf-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Osheen Bhardwaj</span>
+      <div class="footer-links">
+        <a data-site-email-href href="#" data-site-email>email</a>
+        <a data-site-github href="#" target="_blank" rel="noopener">github</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js?v=4"></script>
+  <script src="js/render.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
+  <script src="js/starfield.js?v=2"></script>
+  <script src="js/fluid-cursor.js?v=1"></script>
+  <script src="js/theme.js?v=2"></script>
+  <script src="js/contact-form.js?v=1"></script>
+</body>
+</html>

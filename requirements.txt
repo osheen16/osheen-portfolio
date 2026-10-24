@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------
+# Osheen Bhardwaj — Personal Portfolio
+#
+# This site is 100% static: plain HTML, CSS and JavaScript. There is no
+# build step, no bundler, and no third-party Python package needed to
+# run it. Everything below the line is OPTIONAL.
+#
+# The documented way to serve it locally uses only the Python standard
+# library (`python3 -m http.server`), so this file installs nothing:
+#
+#     pip install -r requirements.txt      # succeeds, installs nothing
+#
+# Requires Python 3.7 or newer.
+# ---------------------------------------------------------------------
+
+# --- optional developer conveniences -------------------------------
+# Uncomment a line below only if you want that extra behaviour.
+
+# Auto-reloads the browser tab whenever an HTML/CSS/JS file changes.
+#   livereload --host 127.0.0.1 --port 8000 .
+# livereload>=2.6.3
+
+# Serves the site over HTTPS with a locally trusted certificate, which
+# is handy when testing features that browsers restrict to secure
+# origins.
+# trustme>=1.1.0
