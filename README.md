@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Osheen Bhardwaj — Personal Website
 
 A static personal site and portfolio: about, experience, projects, publications,
@@ -173,3 +174,7 @@ Because it is fully static, any static host works. For **GitHub Pages**:
 
 Netlify, Vercel and Cloudflare Pages also work — point them at the repo root with
 no build command and no output directory.
+=======
+# osheen-portfolio
+Personal portfolio website showcasing my projects, experience and technical skills.
+>>>>>>> 2b460e5e96f1d969c76102542d77d89be37037fe
